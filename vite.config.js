@@ -6,39 +6,39 @@ const pwaConfig = {
   registerType: "prompt",
   includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
   manifest: {
-    name: "Vite PWA",
-    short_name: "Vite PWA",
-    description: "A Vite React PWA starter template",
+    name: "Rama Cow",
+    short_name: "Rama Cow",
+    description: "Rama Cow",
     icons: [
       {
-        src: "/pwa-64x64.png",
+        src: "/icon.png",
         sizes: "64x64",
         type: "image/png"
       },
       {
-        src: "/pwa-192x192.png",
+        src: "/icon.png",
         sizes: "192x192",
         type: "image/png"
       },
       {
-        src: "/pwa-512x512.png",
+        src: "/icon.png",
         sizes: "512x512",
         type: "image/png"
       },
       {
-        src: '/pwa-512x512.png',
+        src: '/icon.png',
         sizes: '512x512',
         type: 'image/png',
         purpose: 'any'
       },
       {
-        src: "/apple-touch-icon-180x180.png",
+        src: "/icon.png",
         sizes: "180x180",
         type: "image/png",
         purpose: "apple touch icon"
       },
       {
-        src: "/maskable-icon-512x512.png",
+        src: "/icon.png",
         sizes: "512x512",
         type: "image/png",
         purpose: "maskable"
