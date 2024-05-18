@@ -14,6 +14,7 @@
     "generate-pwa-assets": "pwa-assets-generator --preset minimal public/vite.svg"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.43.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
