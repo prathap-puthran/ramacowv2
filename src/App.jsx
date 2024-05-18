@@ -106,27 +106,27 @@ function App() {
 				{!sankalp ? (
 					<div className="formdiv">
 						<div>
-							<input type="checkbox" id="oath" name="oath" value="oath" />
+							{/* <input type="checkbox" id="oath" name="oath" value="oath" />
 							<label htmlFor="oath">
 								I hereby promise that I will not support any political party
 								that kills Mother cow and I will do everything to protect Mother
 								cow
-							</label>
+							</label> */}
+              <p>We need 33 Crore Hindu devotees to support the Mother cow movement .</p>
+              <p>Your participation is very valuable to us.</p>
 						</div>
 
 						<button
 							onClick={() => {
 								setSankalp(true);
-								callDecrementFunction(); // Call decrement function when taking Sankalp
+								// callDecrementFunction(); // Call decrement function when taking Sankalp
 							}}>
-							Take Sankalp
+							Click here to take sankalp and protect mother cow
 						</button>
 					</div>
 				) : (
 					<div className="step2">
-						<h2>
-							{count} <span>Remaining</span>
-						</h2>
+							<p>133333333 <br /> Cow devotees remaining to take sankalp</p>
 						{!submitted ? (
 							<div className="form-container">
 								<form onSubmit={handleFormSubmit} className="contact-form">

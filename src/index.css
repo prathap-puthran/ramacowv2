@@ -33,10 +33,15 @@ body {
 	width: 1rem;
 }
 
-.formdiv label {
-	color: white;
+.formdiv p,
+.step2 p {
+	color: black;
 	font-size: 1rem;
 	font-weight: bold;
+  background-color: white;
+  opacity: 0.9;
+  padding: 0.5rem;
+  border-radius: 8px;
 }
 
 .formdiv button {
